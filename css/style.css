@@ -42,7 +42,7 @@ body{
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -54,11 +54,15 @@ body{
 
 header{
     background-color: var(--color-background-image);
+	margin-bottom: 60px;
 }
 
 nav{
     background-color: var(--color-background);
 	height: 60px;
+	position: fixed;
+	width: 100%;
+	z-index: 2001;
 }
 
 nav a{
@@ -82,7 +86,13 @@ h1{
 }
 
 .pad-b{
-	padding-bottom: 50px;
+	padding-bottom: 40px;
+}
+
+.fa-solid{
+	position: absolute;
+	bottom: 65px;
+	font-size: 3em;
 }
 
 .img{
@@ -91,7 +101,21 @@ h1{
 
 #hero{
 	position: relative;
-	padding-top: 100px;
+	top: 60px;
+}
+
+.pad-r{
+	padding-right: 100px;
+}
+
+.bord{
+	border: 1px solid var(--color-background-footer);
+	margin-top: 20px;
+}
+
+.bord-b{
+	border-bottom: 1px solid var(--color-background-footer);
+	text-align: center;
 }
 
 
