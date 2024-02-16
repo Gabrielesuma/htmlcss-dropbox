@@ -89,7 +89,7 @@ h1{
 	padding-bottom: 40px;
 }
 
-.fa-solid{
+header .fa-solid{
 	position: absolute;
 	bottom: 65px;
 	font-size: 3em;
@@ -121,6 +121,31 @@ h1{
 
 #agency{
     width: 100%;
+}
+
+/*footer*/
+
+footer{
+	background-color: var(--color-background-footer);
+	padding-top: 50px;
+}
+
+footer a, h3{
+	color: var(--color-background);
+}
+
+footer li{
+	margin-bottom: 15px;
+}
+
+.bb{
+	border-top: 1px solid var(--color-background);
+	color: var(--color-bg-designit-center);
+	width: 10%;
+	position: relative;
+	left: 0px;
+	margin-top: 20px;
+	padding: 20px 0 20px 0;
 }
 
 /*flex utlility*/
