@@ -150,8 +150,41 @@ header .fa-solid{
 }
 
 .calc{
-	width: calc(100% / 3);
+	width: 32%;
 }
+
+#partner img{
+	width: 600px;
+	margin-right: 20px;
+}
+
+#partner div{
+	margin-top: 150px;
+}
+
+#partner h3, #partner p{
+	padding-bottom: 20px;
+}
+
+#partner a{
+	border: 1px solid grey;
+	color: grey;
+	padding: 10px;
+}
+
+#business img{
+	width: 300px;
+}
+
+#business h2{
+	margin-bottom: 50px;
+}
+
+.card{
+	width: calc(100% / 3 - 10px);
+}
+
+
 
 #agency{
     width: 100%;
@@ -195,4 +228,8 @@ footer li{
 
 .column{
 	flex-direction: column;
+}
+
+.wrap{
+	flex-wrap: wrap;
 }
