@@ -104,6 +104,8 @@ header .fa-solid{
 	top: 60px;
 }
 
+/*main*/
+
 .pad-r{
 	padding-right: 100px;
 }
@@ -118,9 +120,42 @@ header .fa-solid{
 	text-align: center;
 }
 
+.pad{
+	padding: 10px;
+}
+
+.pad-top{
+	padding-top: 20px;
+}
+
+.li-pad{
+	padding-bottom: 20px;
+}
+
+.t-d a{
+	text-decoration: underline;
+}
+
+.bbm{
+	border-top: 1px solid grey;
+	width: 10%;
+	position: relative;
+	left: 0px;
+	margin-top: 20px;
+	padding: 20px 0 20px 0;
+}
+
+.fa-check{
+	color: var(--color-button);
+}
+
+.calc{
+	width: calc(100% / 3);
+}
 
 #agency{
     width: 100%;
+	gap: 10px;
 }
 
 /*footer*/
@@ -130,7 +165,7 @@ footer{
 	padding-top: 50px;
 }
 
-footer a, h3{
+footer a, footer h3{
 	color: var(--color-background);
 }
 
@@ -139,7 +174,7 @@ footer li{
 }
 
 .bb{
-	border-top: 1px solid var(--color-background);
+	border-top: 1px solid grey;
 	color: var(--color-bg-designit-center);
 	width: 10%;
 	position: relative;
