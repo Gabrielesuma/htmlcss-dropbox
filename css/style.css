@@ -176,7 +176,7 @@ header .fa-solid{
 	width: 300px;
 }
 
-#business h2{
+#business h2, #team h2{
 	margin-bottom: 50px;
 }
 
@@ -184,11 +184,97 @@ header .fa-solid{
 	width: calc(100% / 3 - 10px);
 }
 
-
+#team a{
+	text-decoration: underline;
+}
 
 #agency{
     width: 100%;
 	gap: 10px;
+}
+
+.card2{
+	width: calc(100% / 3);
+}
+
+.b{
+	border-top: 2px solid grey;
+	padding-top: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.bg-design{
+	background-color: var(--color-bg-designit-center);
+	padding: 30px;
+	aspect-ratio: 1 / 1;
+}
+
+#agency img{
+	width: 120px;
+}
+
+.w-div{
+	width: 50%;
+}
+
+.marg{
+	filter: invert(100%);
+}
+
+.bg-des{
+	background-color: var(--color-bg-designit);
+}
+
+.bg-arizona{
+	background-color: var(--color-bg-asu);
+}
+
+.bg-florida{
+	background-color: var(--color-bg-uniflorida);
+}
+
+.bg-topps{
+	background-color: var(--color-bg-topps);
+}
+
+.bg-bicycle{
+	background-color: var(--color-bg-bicycle);
+}
+
+.bg-hearts{
+	background-color: var(--color-bg-herst);
+}
+
+.bg-lonely{
+	background-color: var(--color-bg-lonelyplanet);
+}
+
+.bg-clear{
+	background-color: var(--color-bg-clearchannel);
+}
+
+.marg{
+	margin: auto;
+}
+
+#agency h2{
+	color: var(--color-text-buisness);
+}
+
+.bg-agency{
+	background-color: var(--color-bg-herst);
+	padding: 50px;
+}
+
+#agency a{
+	background-color: var(--color-background);
+	color: grey;
+	padding: 10px;
+}
+
+#agency .bg-design>img{
+	width: 300px;
 }
 
 /*footer*/
@@ -232,4 +318,13 @@ footer li{
 
 .wrap{
 	flex-wrap: wrap;
+}
+
+.align{
+	align-items: center;
+}
+
+.fa-angle-up{
+	position: absolute;
+	right: 25px;
 }
