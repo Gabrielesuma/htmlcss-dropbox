@@ -216,6 +216,11 @@ header .fa-solid{
 
 .w-div{
 	width: 50%;
+	height: 50%;
+}
+
+.w-div:hover{
+	border: 10px solid lightskyblue;
 }
 
 .marg{
